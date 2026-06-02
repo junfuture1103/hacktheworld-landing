@@ -3,341 +3,299 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>HACKTHEWORLD · 크게 배우는 컴퓨터 공학 연구소</title>
-  <meta name="description" content="HACKTHEWORLD(핵더월드)는 정보보호, 해킹, 취약점 분석, QA, 서비스 개발, 유지보수, 강연을 수행하는 컴퓨터 공학 연구소입니다." />
-  <meta property="og:title" content="HACKTHEWORLD · 크게 배우는 컴퓨터 공학 연구소" />
-  <meta property="og:description" content="쉽게 얻을 수 없는 지식을 기어코 알아내어 세상을 이롭게 만든다." />
+  <title>HACKTHEWORLD | 컴퓨터 공학 연구소</title>
+  <meta name="description" content="HACKTHEWORLD는 정보보호, 취약점 분석, QA, 서비스 개발, 유지보수, 교육을 수행하는 컴퓨터 공학 연구소입니다." />
+  <meta property="og:title" content="HACKTHEWORLD | 컴퓨터 공학 연구소" />
+  <meta property="og:description" content="정보보호 연구와 서비스 개발을 함께 수행하는 컴퓨터 공학 연구소" />
   <meta property="og:type" content="website" />
-  <link rel="icon" href="assets/logo.png" type="image/png" />
+  <link rel="icon" href="Vector.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <!-- ===== Header ===== -->
   <header class="site-header" id="top">
     <div class="container header-inner">
-      <a class="brand" href="#top" aria-label="HACKTHEWORLD home">
-        <img src="assets/logo.png" alt="" class="brand-mark" />
-        <span class="brand-name">HACKTHEWORLD</span>
+      <a class="brand" href="#top" aria-label="HACKTHEWORLD 홈으로 이동">
+        <img src="Vector.svg" alt="HACKTHEWORLD" class="brand-mark" />
+        <span>HACKTHEWORLD</span>
       </a>
       <nav class="nav" aria-label="주요 메뉴">
-        <a href="#services">Services</a>
-        <a href="#works">Works</a>
-        <a href="#lectures">Lectures</a>
-        <a href="#about">About</a>
-        <a href="#contact" class="nav-cta">Contact</a>
+        <a href="#services">업무 영역</a>
+        <a href="#works">프로젝트</a>
+        <a href="#education">교육</a>
+        <a href="#about">소개</a>
+        <a href="#contact">문의</a>
       </nav>
-      <button class="nav-toggle" aria-label="메뉴 열기" aria-expanded="false">
-        <span></span><span></span><span></span>
+      <button class="nav-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false">
+        <span></span>
+        <span></span>
       </button>
     </div>
   </header>
 
-  <!-- ===== Hero ===== -->
-  <section class="hero">
-    <div class="hero-bg" aria-hidden="true">
-      <div class="grid-lines"></div>
-      <div class="hero-orb"></div>
-    </div>
-    <div class="container hero-inner">
-      <div class="hero-content reveal">
-        <span class="pill"><span class="pill-dot"></span>컴퓨터 공학 연구소 · Computer Science Lab</span>
-        <h1 class="hero-title">
-          쉽게 얻을 수 없는 지식을<br />
-          기어코 알아내어<br />
-          <span class="grad-text">세상을 이롭게 만든다.</span>
-        </h1>
-        <p class="hero-desc">
-          HACKTHEWORLD는 정보통신기술을 기반으로 다양한 서비스를 개발하고,
-          정보보호·취약점 분석 연구와 교육사업을 수행하는 컴퓨터 공학 연구소입니다.
-        </p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="#services">서비스 살펴보기 <span class="arrow">→</span></a>
-          <a class="btn btn-ghost" href="#contact">프로젝트 문의</a>
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Computer Science Laboratory</p>
+          <h1>보안 연구와 서비스 개발을 함께 수행하는 컴퓨터 공학 연구소</h1>
+          <p class="hero-desc">
+            HACKTHEWORLD는 정보보호, 취약점 분석, QA, 서비스 개발, 유지보수, 교육을 수행합니다.
+            어렵고 깊은 기술 문제를 분석하고 검증 가능한 결과물로 정리합니다.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">프로젝트 문의</a>
+            <a class="btn btn-secondary" href="#services">업무 영역 보기</a>
+          </div>
         </div>
-        <div class="hero-trust">
-          <span>KITRI BOB</span><i>·</i><span>KISA K-Shield</span><i>·</i><span>KAIST</span><i>·</i><span>금융보안원 최우수상</span>
-        </div>
-      </div>
-      <div class="hero-visual reveal">
-        <div class="logo-stage">
-          <img src="assets/logo.png" alt="HACKTHEWORLD 로고" class="hero-logo" />
-          <div class="logo-ring"></div>
-          <div class="logo-ring logo-ring-2"></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== Stats ===== -->
-  <section class="stats">
-    <div class="container stats-grid">
-      <div class="stat reveal"><span class="stat-num" data-target="7" data-suffix="">0</span><span class="stat-label">핵심 서비스 분야</span></div>
-      <div class="stat reveal"><span class="stat-num" data-target="10" data-suffix="+">0</span><span class="stat-label">외주 개발 프로젝트</span></div>
-      <div class="stat reveal"><span class="stat-num" data-target="15" data-suffix="+">0</span><span class="stat-label">기관 · 기업 강연</span></div>
-      <div class="stat reveal"><span class="stat-num" data-target="9" data-suffix="">0</span><span class="stat-label">수상 및 입상 경력</span></div>
-    </div>
-  </section>
-
-  <!-- ===== Services ===== -->
-  <section class="section" id="services">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="eyebrow">Services</span>
-        <h2>핵더월드가 제공하는 전문 영역</h2>
-        <p>공격자의 시선과 개발자의 손으로, 안전하고 신뢰할 수 있는 디지털 환경을 설계합니다.</p>
-      </div>
-
-      <div class="cards">
-        <article class="card reveal">
-          <div class="card-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6l7-3z"/></svg>
+        <aside class="hero-panel" aria-label="핵심 역량">
+          <img src="Vector.svg" alt="HACKTHEWORLD 로고" class="hero-logo" />
+          <div class="panel-title">
+            <span>HACKTHEWORLD</span>
+            <strong>크게 배우는 컴퓨터 공학 연구소</strong>
           </div>
-          <span class="card-no">01</span>
-          <h3>정보보호</h3>
-          <p>실무 기반 보안 컨설팅과 사고 분석·대응으로 조직의 핵심 자산을 안전하게 지킵니다.</p>
-        </article>
-        <article class="card reveal">
-          <div class="card-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M14 5l-4 14"/></svg>
-          </div>
-          <span class="card-no">02</span>
-          <h3>해킹 · 모의침투</h3>
-          <p>시스템·웹·바이너리를 공격자의 관점에서 분석하여 실제 위협을 사전에 검증합니다.</p>
-        </article>
-        <article class="card reveal">
-          <div class="card-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
-          </div>
-          <span class="card-no">03</span>
-          <h3>취약점 분석</h3>
-          <p>리버스 엔지니어링과 버그 헌팅으로 숨어 있는 취약점을 기어코 찾아냅니다.</p>
-        </article>
-        <article class="card reveal">
-          <div class="card-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><rect x="3" y="4" width="18" height="16" rx="2"/></svg>
-          </div>
-          <span class="card-no">04</span>
-          <h3>QA · 품질검증</h3>
-          <p>보안성과 안정성을 함께 검증하여 신뢰할 수 있는 소프트웨어 품질을 보장합니다.</p>
-        </article>
-        <article class="card reveal">
-          <div class="card-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19l4-1 9-9-3-3-9 9-1 4z"/><path d="M15 6l3 3"/></svg>
-          </div>
-          <span class="card-no">05</span>
-          <h3>서비스 개발</h3>
-          <p>백엔드·프론트엔드·AI 연동·클라우드 배포까지 아우르는 풀스택 외주 개발을 수행합니다.</p>
-        </article>
-        <article class="card reveal">
-          <div class="card-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>
-          </div>
-          <span class="card-no">06</span>
-          <h3>유지보수</h3>
-          <p>운영 중인 서비스의 안정적인 운영과 지속적인 개선·보안 패치를 책임집니다.</p>
-        </article>
-        <article class="card reveal">
-          <div class="card-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 14a4 4 0 0 0 4-4V6a4 4 0 0 0-8 0v4a4 4 0 0 0 4 4z"/><path d="M6 10a6 6 0 0 0 12 0M12 18v3"/></svg>
-          </div>
-          <span class="card-no">07</span>
-          <h3>강연 · 교육</h3>
-          <p>KISA, KISEC 등 주요 기관에서 정보보호·해킹 실무 교육과 강연을 진행합니다.</p>
-        </article>
-        <article class="card card-feature reveal">
-          <h3>함께 만들 준비가<br />되어 있습니다</h3>
-          <p>기획부터 안전한 배포까지, 핵더월드가 동행합니다.</p>
-          <a class="feature-link" href="#contact">상담 요청하기 →</a>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== Works ===== -->
-  <section class="section section-alt" id="works">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="eyebrow">Works</span>
-        <h2>주요 개발 프로젝트</h2>
-        <p>다양한 산업 분야에서 기획·개발·배포까지 책임지고 완수한 외주 개발 사례입니다.</p>
-      </div>
-
-      <div class="works">
-        <article class="work reveal">
-          <div class="work-top"><span class="work-period">2024.6 — 현재</span><span class="work-index">01</span></div>
-          <h3>노인돌봄 플랫폼</h3>
-          <p>방문요양보호사를 위한 노인돌봄 플랫폼 개발. 백엔드·DB·앱/웹 프론트엔드·AI 연동·클라우드 배포까지 전 과정 수행.</p>
-          <div class="tags">
-            <span>Node.js</span><span>MySQL</span><span>Elasticsearch</span><span>Flutter</span><span>React</span><span>Python AI</span><span>Naver Cloud</span>
-          </div>
-        </article>
-        <article class="work reveal">
-          <div class="work-top"><span class="work-period">2023.7 — 2024.2</span><span class="work-index">02</span></div>
-          <h3>O2O 미술품 중개 플랫폼</h3>
-          <p>AI 및 이미지 인식 기술을 이용한 미술품 홍보·중개 플랫폼 개발 및 정적 배포.</p>
-          <div class="tags">
-            <span>Node.js</span><span>MySQL</span><span>JavaScript</span><span>Netlify</span>
-          </div>
-        </article>
-        <article class="work reveal">
-          <div class="work-top"><span class="work-period">2023.1 — 2023.12</span><span class="work-index">03</span></div>
-          <h3>월패드 애플리케이션</h3>
-          <p>안드로이드 클린 아키텍처를 적용한 스마트홈 월패드 앱 개발 및 플레이스토어 배포.</p>
-          <div class="tags">
-            <span>Node.js</span><span>MySQL</span><span>Kotlin</span><span>React Native</span><span>Play Store</span>
-          </div>
-        </article>
-        <article class="work reveal">
-          <div class="work-top"><span class="work-period">다수 운영</span><span class="work-index">04</span></div>
-          <h3>교육용 해킹대회(CTF) 플랫폼</h3>
-          <p>교육용 해킹대회 웹사이트 개발 및 운영을 다수 진행하며 안정적인 대회 환경을 제공.</p>
-          <div class="tags">
-            <span>Node.js</span><span>MySQL</span><span>JavaScript</span><span>Naver Cloud</span>
-          </div>
-        </article>
-        <article class="work reveal">
-          <div class="work-top"><span class="work-period">2023.1 — 2025.3</span><span class="work-index">05</span></div>
-          <h3>실시간 방송 플랫폼</h3>
-          <p>WebRTC를 이용한 실시간 방송 플랫폼 개발. <em>(비밀유지협약으로 상세 기술스택 비공개)</em></p>
-          <div class="tags">
-            <span>WebRTC</span><span>Real-time</span><span>NDA</span>
-          </div>
-        </article>
-        <article class="work work-cta reveal">
-          <h3>다음 프로젝트의<br />파트너를 찾고 계신가요?</h3>
-          <p>기획 단계부터 안전한 배포까지, 핵더월드와 함께 시작하세요.</p>
-          <a class="btn btn-light" href="#contact">프로젝트 문의 →</a>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== Lectures ===== -->
-  <section class="section" id="lectures">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="eyebrow">Lectures</span>
-        <h2>강연 · 교육 활동</h2>
-        <p>주요 보안 기관과 기업, 대학 연합에서 정보보호·해킹 실무 강연을 진행해 왔습니다.</p>
-      </div>
-
-      <ul class="lecture-list">
-        <li class="reveal"><span class="org">KISEC</span><span class="lec-title">삼성전자 DS부문 개발자 리버스 엔지니어링 및 SW 버그헌팅</span><i>2023.11</i></li>
-        <li class="reveal"><span class="org">KISA</span><span class="lec-title">K-SHIELD 최정예 정보보호인력양성 — 사이버 회복력·데이터 분석</span><i>2023.12</i></li>
-        <li class="reveal"><span class="org">한전KDN</span><span class="lec-title">국정원 실시간 대응훈련 ICDX 대비 특강</span><i>2023.6</i></li>
-        <li class="reveal"><span class="org">INCOGNITO</span><span class="lec-title">2024 전국 대학생 보안동아리연합 컨퍼런스 강연</span><i>2024.3</i></li>
-        <li class="reveal"><span class="org">CCE</span><span class="lec-title">제1회 세미나 — CTF 출전을 위한 시스템 해킹 플로우 이해하기</span><i></i></li>
-        <li class="reveal"><span class="org">TEAMH4C</span><span class="lec-title">해킹하는 부엉이들 특강 — 시스템 해킹 플로우 이해하기</span><i></i></li>
-        <li class="reveal"><span class="org">코딩플러스</span><span class="lec-title">C/C++/Python/알고리즘/IT특성화고 입시 특강 (목동·상도)</span><i></i></li>
-        <li class="reveal"><span class="org">와락</span><span class="lec-title">동대문구 진로직업 체험센터 — 청소년 진로 해킹보안 강연</span><i></i></li>
-      </ul>
-
-      <div class="contents-banner reveal">
-        <div class="contents-text">
-          <span class="eyebrow eyebrow-light">Online Contents</span>
-          <h3>온라인 교육 콘텐츠 운영</h3>
-          <p>인프런(온라인 강의)과 포스타입(전자책)에서 정보보호·해킹 교육 콘텐츠를 운영합니다.</p>
-        </div>
-        <div class="contents-tags">
-          <span>인프런 강의</span>
-          <span>포스타입 전자책</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== About ===== -->
-  <section class="section section-alt" id="about">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="eyebrow">About</span>
-        <h2>연구와 사람</h2>
-        <p>핵더월드는 연구와 논문 작성을 통해 지식의 최전선에서 끊임없이 배우고 검증합니다.</p>
-      </div>
-
-      <div class="about-grid">
-        <div class="founder-card reveal">
-          <div class="founder-head">
-            <div class="founder-avatar" aria-hidden="true">이</div>
-            <div>
-              <h3>이준학</h3>
-              <p class="founder-role">대표자 · 경력 4년차 · 개발 및 정보보호</p>
-            </div>
-          </div>
-
-          <div class="founder-block">
-            <h4>주요 경력</h4>
-            <ul>
-              <li>KITRI BOB(Best of Best) 9기 취약점 분석 트랙 수료 (2020.7~2021.3)</li>
-              <li>KISA K-Shield Jr. 7기 보안사고분석대응 과정 (2021.8~2021.11)</li>
-              <li>중앙대학교 산업보안학과 정보보호동아리 ISANG 회장 (2022.3~2023.3)</li>
-            </ul>
-          </div>
-
-          <div class="founder-block">
-            <h4>학력</h4>
-            <ul>
-              <li>KAIST 전산학부 석사과정</li>
-              <li>중앙대학교 서울캠퍼스 졸업 (산업보안 / 소프트웨어 전공)</li>
-              <li>서울 경희고등학교 졸업</li>
-            </ul>
-          </div>
-
-          <a class="card-link" href="https://juntheworld.netlify.app/" target="_blank" rel="noopener">온라인 비즈니스 카드 보기 →</a>
-        </div>
-
-        <div class="awards-card reveal">
-          <h4>수상 및 입상</h4>
-          <ul class="awards">
-            <li><span class="medal gold">최우수상</span> 제6회 금융보안원 논문공모전 (금융감독원장상, 2022.11)</li>
-            <li><span class="medal">우수상</span> 한국인터넷진흥원 개인정보 가명·익명처리 기술 경진대회 (2022.11)</li>
-            <li><span class="medal">본선</span> 2023 국제 대학생 해킹경진대회 HACKTHEON 본선진출 (2023.5)</li>
-            <li><span class="medal gold">최우수상</span> 다빈치 SW/AI 공모전 (2위, 2022.9)</li>
-            <li><span class="medal gold">금상</span> 2021 대학(원)생 아이디어 공모전 (1위, 한국전자거래학회)</li>
-            <li><span class="medal">우수인재</span> K-Shield Jr. 사이버보안 우수 실무인재상 (2021.11)</li>
-            <li><span class="medal">장려상</span> 2021 경기도 스마트시티 아이디어 해커톤 (2021.9)</li>
+          <ul class="capability-list">
+            <li><span>01</span>Security Research</li>
+            <li><span>02</span>Vulnerability Analysis</li>
+            <li><span>03</span>Service Development</li>
+            <li><span>04</span>QA &amp; Maintenance</li>
           </ul>
-          <p class="awards-note">연구·논문 작성 및 창업 지원·공간 지원 경험 보유</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="statement" aria-label="회사 철학">
+      <div class="container statement-inner">
+        <p>쉽게 얻을 수 없는 지식을 끝까지 탐구하고, 그 결과로 더 안전하고 유용한 서비스를 만듭니다.</p>
+      </div>
+    </section>
+
+    <section class="metrics" aria-label="핵심 지표">
+      <div class="container metrics-grid">
+        <div class="metric">
+          <strong>7</strong>
+          <span>핵심 서비스 분야</span>
+        </div>
+        <div class="metric">
+          <strong>10+</strong>
+          <span>개발 프로젝트</span>
+        </div>
+        <div class="metric">
+          <strong>15+</strong>
+          <span>강연 및 교육</span>
+        </div>
+        <div class="metric">
+          <strong>9</strong>
+          <span>수상 및 입상 경력</span>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== Contact ===== -->
-  <section class="section contact" id="contact">
-    <div class="container">
-      <div class="contact-banner reveal">
-        <div class="contact-glow" aria-hidden="true"></div>
-        <img src="assets/logo.png" alt="" class="contact-logo" />
-        <h2>함께 세상을 이롭게 만들 준비가 되셨나요?</h2>
-        <p>정보보호 · 개발 · 강연, 무엇이든 핵더월드가 기어코 답을 찾아드립니다.</p>
-        <a class="btn btn-light btn-lg" href="mailto:juntheworld1103@kaist.ac.kr">juntheworld1103@kaist.ac.kr</a>
-        <p class="contact-rep">대표자 · 이준학</p>
+    <section class="section" id="services">
+      <div class="container two-column-head">
+        <div>
+          <p class="eyebrow">Services</p>
+          <h2>업무 영역</h2>
+        </div>
+        <p>
+          기획 단계의 기술 검토부터 개발, 보안 검증, 운영 유지보수까지 실무 중심으로 수행합니다.
+          보안 연구와 제품 개발을 분리하지 않고 하나의 품질 기준으로 다룹니다.
+        </p>
       </div>
-    </div>
-  </section>
 
-  <!-- ===== Footer ===== -->
+      <div class="container service-grid">
+        <article class="service-card">
+          <span>01</span>
+          <h3>정보보호</h3>
+          <p>보안 요구사항 정리, 위협 모델링, 사고 분석 및 대응 관점의 기술 검토를 수행합니다.</p>
+        </article>
+        <article class="service-card">
+          <span>02</span>
+          <h3>해킹 및 모의침투</h3>
+          <p>공격자의 관점에서 웹, 시스템, 애플리케이션의 실제 위험을 검증합니다.</p>
+        </article>
+        <article class="service-card">
+          <span>03</span>
+          <h3>취약점 분석</h3>
+          <p>리버스 엔지니어링, 버그 헌팅, 소스 리뷰를 통해 취약점을 분석하고 재현합니다.</p>
+        </article>
+        <article class="service-card">
+          <span>04</span>
+          <h3>QA 및 품질검증</h3>
+          <p>기능 품질, 안정성, 보안성을 함께 검증하여 운영 가능한 수준의 제품 품질을 만듭니다.</p>
+        </article>
+        <article class="service-card">
+          <span>05</span>
+          <h3>서비스 개발</h3>
+          <p>백엔드, 프론트엔드, 모바일 앱, AI 연동, 클라우드 배포까지 풀스택 개발을 수행합니다.</p>
+        </article>
+        <article class="service-card">
+          <span>06</span>
+          <h3>유지보수</h3>
+          <p>운영 중인 서비스의 장애 대응, 성능 개선, 기능 개선, 보안 패치를 지원합니다.</p>
+        </article>
+        <article class="service-card">
+          <span>07</span>
+          <h3>강연 및 교육</h3>
+          <p>기관, 기업, 대학생 보안 커뮤니티를 대상으로 정보보호 실무 교육을 진행합니다.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="works">
+      <div class="container two-column-head inverted">
+        <div>
+          <p class="eyebrow">Works</p>
+          <h2>주요 프로젝트</h2>
+        </div>
+        <p>
+          다양한 산업군의 서비스를 개발하며 데이터베이스 설계, 서버 구축, 프론트엔드 개발,
+          AI 연동, 배포 및 운영을 수행했습니다.
+        </p>
+      </div>
+
+      <div class="container project-list">
+        <article class="project-row">
+          <div class="project-meta">2024.6-현재</div>
+          <div class="project-main">
+            <h3>방문요양보호사를 위한 노인돌봄 플랫폼</h3>
+            <p>Node.js 백엔드, MySQL 및 Elasticsearch 설계, Flutter 앱, React 웹, Python AI 연동, 네이버 클라우드 배포.</p>
+          </div>
+        </article>
+        <article class="project-row">
+          <div class="project-meta">2023.7-2024.2</div>
+          <div class="project-main">
+            <h3>AI 이미지 인식 기반 O2O 미술품 플랫폼</h3>
+            <p>미술품 홍보 및 중개 서비스를 위한 Node.js 백엔드, MySQL 설계, JavaScript 프론트엔드, Netlify 배포.</p>
+          </div>
+        </article>
+        <article class="project-row">
+          <div class="project-meta">2023.1-2023.12</div>
+          <div class="project-main">
+            <h3>안드로이드 클린 아키텍처 기반 월패드 앱</h3>
+            <p>Node.js 서버, MySQL 설계, Kotlin 및 React Native 앱 개발, Play Store 배포.</p>
+          </div>
+        </article>
+        <article class="project-row">
+          <div class="project-meta">다수 운영</div>
+          <div class="project-main">
+            <h3>교육용 해킹대회 웹사이트</h3>
+            <p>CTF 운영을 위한 Node.js 백엔드, MySQL 설계, JavaScript 프론트엔드, 네이버 클라우드 배포.</p>
+          </div>
+        </article>
+        <article class="project-row">
+          <div class="project-meta">2023.1-2025.3</div>
+          <div class="project-main">
+            <h3>WebRTC 기반 실시간 방송 플랫폼</h3>
+            <p>비밀유지계약에 따라 상세 기술스택은 비공개입니다.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="container two-column-head">
+        <div>
+          <p class="eyebrow">Education</p>
+          <h2>강연 및 교육</h2>
+        </div>
+        <p>
+          기업 개발자, 정보보호 교육기관, 대학생 보안 커뮤니티를 대상으로 리버스 엔지니어링,
+          버그 헌팅, 사이버 회복력, 시스템 해킹 교육을 진행했습니다.
+        </p>
+      </div>
+
+      <div class="container lecture-table">
+        <div class="lecture-row">
+          <span>KISEC</span>
+          <p>삼성전자 DS부문 개발자 리버스 엔지니어링 및 SW 버그헌팅</p>
+          <time>2023.11</time>
+        </div>
+        <div class="lecture-row">
+          <span>KISA</span>
+          <p>K-SHIELD 최정예 정보보호인력양성, 사이버 회복력 및 데이터 분석</p>
+          <time>2023.12</time>
+        </div>
+        <div class="lecture-row">
+          <span>한전KDN</span>
+          <p>국정원 실시간 대응훈련 ICDX 대비 특강</p>
+          <time>2023.6</time>
+        </div>
+        <div class="lecture-row">
+          <span>INCOGNITO</span>
+          <p>전국 대학생 보안동아리연합 컨퍼런스 강연</p>
+          <time>2024.3</time>
+        </div>
+        <div class="lecture-row">
+          <span>CTF</span>
+          <p>CTF 출전을 위한 시스템 해킹 플로우 이해하기</p>
+          <time>다수</time>
+        </div>
+      </div>
+
+      <div class="container content-note">
+        <strong>온라인 콘텐츠</strong>
+        <p>인프런 강의와 포스타입 전자책을 통해 정보보호 및 해킹 교육 콘텐츠를 운영합니다.</p>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="about">
+      <div class="container two-column-head">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>연구와 사람</h2>
+        </div>
+        <p>
+          HACKTHEWORLD는 실무 개발 경험과 정보보호 연구 경험을 바탕으로 문제를 분석하고,
+          필요한 경우 교육과 문서화까지 함께 제공합니다.
+        </p>
+      </div>
+
+      <div class="container about-grid">
+        <article class="about-card">
+          <h3>이준학 대표</h3>
+          <p class="role">개발 및 정보보호</p>
+          <ul>
+            <li>KITRI BOB 9기 취약점 분석 트랙 수료</li>
+            <li>KISA K-Shield Jr. 7기 보안사고분석대응 과정</li>
+            <li>중앙대학교 산업보안학과 정보보호동아리 ISANG 회장</li>
+            <li>KAIST 전산학부 석사과정</li>
+          </ul>
+          <a href="https://juntheworld.netlify.app/" target="_blank" rel="noopener">온라인 비즈니스 카드</a>
+        </article>
+        <article class="about-card">
+          <h3>수상 및 연구 경험</h3>
+          <ul>
+            <li>금융보안원 논문공모전 최우수상, 금융감독원장상</li>
+            <li>개인정보 가명·익명처리 기술 경진대회 우수상</li>
+            <li>HACKTHEON 국제 대학생 해킹경진대회 본선진출</li>
+            <li>다빈치 SW/AI 공모전 최우수상</li>
+            <li>K-Shield Jr. 사이버보안 우수 실무인재상</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container contact-inner">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>보안 검증, 서비스 개발, 교육이 필요하다면 연락주세요.</h2>
+        </div>
+        <div class="contact-actions">
+          <a class="btn btn-inverted" href="mailto:juntheworld1103@kaist.ac.kr">juntheworld1103@kaist.ac.kr</a>
+          <p>대표자 이준학</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
   <footer class="site-footer">
     <div class="container footer-inner">
-      <div class="footer-brand">
-        <img src="assets/logo.png" alt="" class="brand-mark" />
-        <div>
-          <strong>HACKTHEWORLD</strong>
-          <span>크게 배우는 컴퓨터 공학 연구소</span>
-        </div>
-      </div>
-      <nav class="footer-nav" aria-label="푸터 메뉴">
-        <a href="#services">Services</a>
-        <a href="#works">Works</a>
-        <a href="#lectures">Lectures</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <p class="footer-copy">© <span id="year"></span> HACKTHEWORLD. All rights reserved.</p>
+      <strong>HACKTHEWORLD</strong>
+      <span>© <span id="year"></span> HACKTHEWORLD. All rights reserved.</span>
     </div>
   </footer>
 
